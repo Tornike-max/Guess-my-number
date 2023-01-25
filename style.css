@@ -1,0 +1,106 @@
+.container {
+    max-width: 1920px;
+    width:100%;
+    height:601px;
+    background-color:rgb(69, 68, 68);
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    max-width:1920px;
+    width:100%;
+    height:70;
+}
+
+.game-rule{
+    font-size:18px;
+    color:white;
+    padding-top:20px;
+}
+
+.button-again{
+    max-width:90px;
+    width:100%;
+    height:50px;
+    margin-top:10px;
+}
+
+.game-headerdiv{
+    display: flex;
+    justify-content: center;
+    max-width:1920px;
+    width:100%;
+    height:70px;
+    margin-top: 50px;
+}
+
+.number{
+    max-width: 100px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-mark {
+    font-size: 30px;
+}
+
+.game-header{
+    font-size:40px;
+    color:white;
+}
+
+.leftToRight{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.guess {
+    max-width:100px;
+    width:100%;
+    height:70px;
+    font-size:30px;
+    border-top:5px solid white;
+    border-radius: 5px;
+}
+
+.btn-check {
+    margin-top: 20px;
+    max-width: 110px;
+    width: 100%;
+    height: 35px;
+    border-top:5px solid white;
+    border-radius: 5px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.message {
+    font-size:20px;
+    color:white;
+}
+
+.label-score{
+    font-size:20px;
+    color:white;
+}
+
+.label-highscore {
+    font-size:20px;
+    color:white;
+}
